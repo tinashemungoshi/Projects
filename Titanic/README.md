@@ -10,7 +10,7 @@ In this project, I use Python to explore that question through summary statistic
 
 The dataset contains **891 passenger records and 12 original columns**, including age, sex, ticket class, fare and survival status. `Survived` is coded as `0` for passengers who did not survive and `1` for those who did.
 
-The notebook loads the CSV from a [pinned commit in my Uni repository](https://raw.githubusercontent.com/tinashemungoshi/Uni/872ed86305b06ea0c73ec13a29af2bcfaecd7725/titanic.csv). These records are a subset of the people aboard, so the findings describe this dataset rather than everyone on the ship.
+The notebook loads the CSV from a [pinned commit in my Projects repository](https://raw.githubusercontent.com/tinashemungoshi/Uni/872ed86305b06ea0c73ec13a29af2bcfaecd7725/titanic.csv). These records are a subset of the people aboard, so the findings describe this dataset rather than everyone on the ship.
 
 ## What I explored
 
