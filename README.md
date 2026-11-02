@@ -17,6 +17,17 @@ The project covers missing-value checks, descriptive statistics, data visualisat
 
 To explore the project, open its folder in this repository and read the project README or Jupyter notebook.
 
+### Bicycle Rental Demand: Weather, Seasons and Unusual Observations
+
+An exploratory analysis of daily bicycle rentals, looking at how demand varies across seasons and weather conditions. I use filters, grouped summaries and a bar chart, then examine sample sizes and compare original, trimmed and capped data using an IQR-based outlier rule.
+
+The project highlights how selection bias, aggregation and small groups can affect interpretation. The notebook also documents inconsistent saved seasonal summaries that need a fresh run before the numerical findings are treated as verified.
+
+**Tools:** Python, pandas, NumPy, Matplotlib and Seaborn  
+**Focus:** Grouping and aggregation, statistical interpretation, outlier detection and sensitivity analysis
+
+[Explore the bicycle rental project](Bikes/README.md)
+
 ## What you'll find here
 
 My aim is to make each project easy to follow, from the original question through to the findings and their limitations. Alongside the code, I include explanations of the approach, what the results suggest and what I would investigate next.
