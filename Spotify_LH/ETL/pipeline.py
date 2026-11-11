@@ -1,7 +1,7 @@
 """Convert Spotify streaming-history JSON files to CSVs.
 
 Usage examples:
-	python ETL/pipeline.py --source "../Source Data" --out "../Transformed Data" --combine
+	python ETL/pipeline.py --source "../Source Data" --out "../Transformed Data"
 
 This script:
  - Finds JSON files matching a pattern in the source directory.
@@ -159,6 +159,11 @@ def parse_args() -> argparse.Namespace:
 	p.add_argument("--source", "-s", type=Path, default=Path("../Source Data"), help="Source directory containing JSON files")
 	p.add_argument("--out", "-o", type=Path, default=Path("../Transformed Data"), help="Output directory for CSV files")
 	p.add_argument("--pattern", "-p", default="Streaming_History*.json", help="Glob pattern to match JSON files")
+	p.add_argument(
+		"--combine",
+		action="store_true",
+		help="Compatibility flag; the pipeline always writes the combined CSV",
+	)
 	p.add_argument("--verbose", "-v", action="store_true", help="Verbose logging")
 	return p.parse_args()
 

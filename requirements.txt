@@ -1,0 +1,9 @@
+ipykernel
+matplotlib
+nbconvert
+notebook
+numpy
+pandas
+python-chess
+requests
+seaborn>=0.12

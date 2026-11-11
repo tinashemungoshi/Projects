@@ -17,7 +17,7 @@ How do weather conditions and seasons relate to bicycle rental demand, and how m
 
 ## Data
 
-The notebook loads a CSV from [Bikes/bike.csv in my Projects repository](https://github.com/tinashemungoshi/Projects/blob/main/Bikes/bike.csv). Each row represents a recorded day, with rental counts, seasonal and weather categories, calendar information and weather measurements.
+The notebook loads a CSV from [bicycle_rental_analysis/bike.csv in my Projects repository](https://github.com/tinashemungoshi/Projects/blob/main/bicycle_rental_analysis/bike.csv). Each row represents a recorded day, with rental counts, seasonal and weather categories, calendar information and weather measurements.
 
 The code renames `yr`, `mnth` and `cnt` to `year`, `month` and `count`. The saved missing-value check reports no missing values. The CSV itself is not included with these two files; running the notebook requires internet access to its existing URL.
 

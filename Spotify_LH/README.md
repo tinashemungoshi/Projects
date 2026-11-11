@@ -17,8 +17,8 @@ python ETL\pipeline.py --source "C:\Users\tinas\OneDrive\Desktop\TM\Projects\Pyt
 python ETL\pipeline.py --verbose
 
 Outputs
-- One CSV per JSON file, named like `Streaming_History_Audio_2024_6.csv`, written to `Transformed Data/`.
-- If `--combine` is passed, a combined file `streaming_history_all.csv` is created in `Transformed Data/`.
+- A combined file `combined_streaming_history.csv` is written to `Transformed Data/`.
+- `--combine` is retained as a compatibility flag for existing commands; the combined output is always produced.
 
 Notes & next steps
 - The script attempts to preserve column order based on first-seen keys.

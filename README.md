@@ -26,7 +26,7 @@ The project highlights how selection bias, aggregation and small groups can affe
 **Tools:** Python, pandas, NumPy, Matplotlib and Seaborn  
 **Focus:** Grouping and aggregation, statistical interpretation, outlier detection and sensitivity analysis
 
-[Explore the bicycle rental project](Bikes/README.md)
+[Explore the bicycle rental project](bicycle_rental_analysis/README.md)
 
 ## What you'll find here
 
